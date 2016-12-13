@@ -3,6 +3,11 @@ const sequelizeConnection = require('../db');
 const Song = require('../models/song-model');
 const Genre = require('../models/genre-model');
 // const SongGenre = require('./models/song-genre-model');
+const Artist = require('../models/artist-model')
+
+// Song.belongsTo(Artist);
+// Song.belongsToMany(Genre, {through: 'song_genre'});
+// Genre.belongsToMany(Song, {through: 'song_genre'});
 
 //Song.sync will create the songs table
 Song.sync({force: true})

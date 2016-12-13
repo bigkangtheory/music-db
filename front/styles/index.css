@@ -1,0 +1,53 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Abel', sans-serif;
+	cursor: crosshair;
+}
+
+.header {
+	font-family: 'Poiret One', cursive;	
+}
+
+.navbar {
+	display: flex;
+	width: 500px;
+	justify-content: space-around;
+}
+
+.navContainer {
+	background-color: rgba(177, 206, 235, 1);
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+}
+
+.navLinks {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+.navLinks:visited {
+    color: black;
+}
+
+.navLinks:hover {
+    color: white;
+    cursor: crosshair;
+}
+
+.navbar li{
+	list-style: none;
+}
+
+.theBod{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+li {
+	color: blue;
+}
